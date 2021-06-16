@@ -39,7 +39,7 @@
 
 ```bash
 # 通过模板创建项目
-npx degit gxmari007/template-frontend-vue-pc my-project-name
+npx degit git@github.com:gxmari007/template-vue-pc.git my-project-name
 
 # 进入项目目录
 cd my-project-name
