@@ -5,6 +5,7 @@
 ## 特点
 
 - ⚡️ [Vue3](https://v3.vuejs.org/), [Vite2](https://vitejs.dev/), [pnpm](https://pnpm.io/) 组合，无惧项目剧增
+- ♻️ 可以使用 [vite-plugin-vue2](https://github.com/underfin/vite-plugin-vue2) 支持 [Vue2](https://vuejs.org/)
 - 🔥 支持 [`<script setup>`](https://github.com/vuejs/rfcs/pull/227) 语法糖
 - 🚨 使用 ESLint 检查代码
 - 💪 [Typescript](https://www.typescriptlang.org/) 保证代码健壮性
