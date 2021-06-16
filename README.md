@@ -26,6 +26,11 @@
 
 - [Typescript](https://www.typescriptlang.org/)
 - [pnpm](https://pnpm.io/) 更好的包管理工具，集合了 yarn 与 npm 的优点，支持工作空间
+- [husky](https://github.com/typicode/husky) Git 钩子工具，配置提交工作流
+- [commitlint](https://github.com/conventional-changelog/commitlint) 搭配 husky 规范提交
+  - [config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional) 提交规范的配置
+- [lint-staged](https://github.com/okonet/lint-staged) 搭配 husky 的代码检查工具，确保只检查提交的代码
+- [standard-version](https://github.com/conventional-changelog/standard-version) 规范的发版工具，能够根据你的提交记录生成 changelog
 - [VSCode 插件](https://marketplace.visualstudio.com/VSCode)
   - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) 或 [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)，推荐 [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)，支持 [`<script setup>`](https://github.com/vuejs/rfcs/pull/227) 语法糖
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
