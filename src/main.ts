@@ -1,4 +1,10 @@
 import { createApp } from 'vue';
-import App from './app.vue';
+import roshan from 'roshan';
 
-createApp(App).mount('#app');
+import App from './modules/app/app.vue';
+
+const app = createApp(App);
+
+app.use(roshan);
+
+app.mount('#app');
